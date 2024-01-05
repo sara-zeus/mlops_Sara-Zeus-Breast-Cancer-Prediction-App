@@ -21,7 +21,7 @@ Derived from digitized images of FNA samples from breast masses, the app's analy
 The underlying machine learning model is trained on the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), enhancing accuracy and reliability.
 
 
-**Project Structure**
+## Project Structure**
 
 ---
 
