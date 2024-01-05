@@ -125,7 +125,6 @@ streamlit run app/app.py
 
 ```python
 python run_pipeline.py
-python run_deployment.py
 
 ```
 ```python
