@@ -59,11 +59,16 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 
 These are my training pipelines: 
 
-- Data Ingestion Pipeline: 📥
-- Data Preprocessing Pipeline: 🔍
-- Model Training Pipeline: 🤖
-- Model Evaluation Pipeline: 📊
-- Deployment Pipeline: 🚀
+- Data Ingestion Pipeline** 📥: Responsible for gathering and importing raw data from various sources into the system or data processing workflow. Involves data collection, extraction, and initial processing tasks.
+
+- Data Preprocessing Pipeline** 🔍: Focuses on cleaning, transforming, and preparing raw data for analysis or model training. Includes data cleaning, normalization, feature engineering, and handling missing values.
+
+- Model Training Pipeline** 🤖: Dedicated to training machine learning or statistical models using prepared data. Involves selecting algorithms, training models, tuning hyperparameters, and validating performance.
+
+- Model Evaluation Pipeline** 📊: Assesses trained models' performance and effectiveness. Involves evaluating against specific metrics, conducting cross-validation, and generating reports or visualizations.
+
+- Deployment Pipeline** 🚀: Handles deploying trained and evaluated models into production or operational environments. Includes model packaging, integration, testing, and making models accessible for usage.
+
 
 And finally, my deployment pipeline that creates a continuous deployment workflow: 
 - Deployment Pipeline: 🚀
