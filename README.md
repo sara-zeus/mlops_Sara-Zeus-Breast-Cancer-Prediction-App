@@ -28,7 +28,7 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 ```python
 
 
-├── app                      <- folder for all the streamlit app code  
+├── app                      <- Folder For All The Streamlit App Code  
 │   ├── app.py                    <- My Streamlit App 
 │   ├── requirements.txt          <- List of all Dependencies 
 │
