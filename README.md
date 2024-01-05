@@ -10,7 +10,7 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
  - :reminder_ribbon: [App Link](https://sara-zeus-breast-cancer-prediction-app.streamlit.app)
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
 - MLOps streamlines the complex machine learning lifecycle, coordinating tasks from data ingest to model deployment. It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes.
-
+- For this project I decided to use ZenML, an Open-source MLOps framework facilitating portable, production-ready machine learning pipelines. 
 - Benefits of MLOps include:
 
 Efficiency: 
