@@ -20,8 +20,7 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 - This practice promotes collaboration among various teams, including Data Engineering, Data Science, and ML Engineering, necessitating strict operational standards to synchronize processes.
 
 ## Benefits of MLOps include:
-- Efficiency: 
-- Faster model development, high-quality ML models, and swift deployment.
+- Efficiency: Faster model development, high-quality ML models, and swift deployment.
 - Scalability: Management of numerous models, facilitating continuous integration and deployment.
 - Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
 ![MLOps](images/mlops.jpg)
@@ -57,24 +56,6 @@ Creating an MLOps system or using pipeline orchestration tools like MLflow, Sacr
 Collaborative tools, starting simple, quick launches, automated testing, and model deployment are key practices ensuring success in MLOps.
  
 ![MLOps](images/ml.png)
-
-
-
-These are my training pipelines: 
-
-- Data Ingestion Pipeline** 📥: Responsible for gathering and importing raw data from various sources into the system or data processing workflow. Involves data collection, extraction, and initial processing tasks.
-
-- Data Preprocessing Pipeline** 🔍: Focuses on cleaning, transforming, and preparing raw data for analysis or model training. Includes data cleaning, normalization, feature engineering, and handling missing values.
-
-- Model Training Pipeline** 🤖: Dedicated to training machine learning or statistical models using prepared data. Involves selecting algorithms, training models, tuning hyperparameters, and validating performance.
-
-- Model Evaluation Pipeline** 📊: Assesses trained models' performance and effectiveness. Involves evaluating against specific metrics, conducting cross-validation, and generating reports or visualizations.
-
-- Deployment Pipeline** 🚀: Handles deploying trained and evaluated models into production or operational environments. Includes model packaging, integration, testing, and making models accessible for usage.
-
-
-And finally, my deployment pipeline that creates a continuous deployment workflow: 
-- Deployment Pipeline: 🚀
 
 
 
@@ -141,6 +122,25 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 ```
 ## 🚀 Lets look at the code 
 ***
+
+These are my training pipelines: 
+
+- Data Ingestion Pipeline** 📥: Responsible for gathering and importing raw data from various sources into the system or data processing workflow. Involves data collection, extraction, and initial processing tasks.
+
+- Data Preprocessing Pipeline** 🔍: Focuses on cleaning, transforming, and preparing raw data for analysis or model training. Includes data cleaning, normalization, feature engineering, and handling missing values.
+
+- Model Training Pipeline** 🤖: Dedicated to training machine learning or statistical models using prepared data. Involves selecting algorithms, training models, tuning hyperparameters, and validating performance.
+
+- Model Evaluation Pipeline** 📊: Assesses trained models' performance and effectiveness. Involves evaluating against specific metrics, conducting cross-validation, and generating reports or visualizations.
+
+- Deployment Pipeline** 🚀: Handles deploying trained and evaluated models into production or operational environments. Includes model packaging, integration, testing, and making models accessible for usage.
+
+
+And finally, my deployment pipeline that creates a continuous deployment workflow: 
+- Deployment Pipeline: 🚀
+
+
+
 
 
 ## The Streamlit App
