@@ -1,5 +1,4 @@
-# Sara-Zeus Breast Cancer Prediction App :stethoscope: :cherry_blossom: 
-# Sara-Zeus Breast Cancer Prediction App :stethoscope: :cherry_blossom:  
+# Sara-Zeus Breast Cancer Prediction App :stethoscope: :cherry_blossom: Empowering Precision, Embracing Hope 
 ***
 
 
