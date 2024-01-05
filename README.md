@@ -41,3 +41,29 @@ streamlit run app/app.py
 ```
 
 
+- Project Root
+  - app/
+    - (files inside app folder)
+  - assets/
+    - (files inside assets folder)
+  - data/
+    - (files inside data folder)
+  - images/
+    - (files inside images folder)
+  - mlops_examples/
+    - (files inside mlops_examples folder)
+  - model/
+    - (files inside model folder)
+  - pipelines/
+    - (files inside pipelines folder)
+  - src/
+    - (files inside src folder)
+  - steps/
+    - (files inside steps folder)
+  - README.md
+  - __init__.py
+  - run_deployment.py
+  - run_pipeline.py
+
+
+
