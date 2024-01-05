@@ -19,7 +19,7 @@ Efficiency:
 - Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
 ![MLOps](images/mlops.jpg)
 
-![MLOps](images/mlops.jpg)
+![MLOps](images/ml.png)
 
 
 ## Functionality
