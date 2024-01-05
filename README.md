@@ -16,9 +16,8 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 
 ## Why MLOps? 
 - For the Capstone Project, I decided to take it a step further and explore MLOps because building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
-- MLOps streamlines the complex machine learning lifecycle using [ZenML](https://www.zenml.io) with the use pipelines, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org). It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes.
-- For this project I decided to use [ZenML](https://www.zenml.io), an Open-source MLOps framework facilitating portable, production-ready machine learning pipelines.
-- coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org). It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes. 
+- MLOps streamlines the complex machine learning lifecycle, so for this project I decided to use using [ZenML](https://www.zenml.io) with the use pipelines, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org).
+- This practice promotes collaboration among various teams, including Data Engineering, Data Science, and ML Engineering, necessitating strict operational standards to synchronize processes.
 
 ## Benefits of MLOps include:
 - Efficiency: 
