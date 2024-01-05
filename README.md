@@ -128,5 +128,6 @@ python run_pipeline.py
 python run_deployment.py
 
 ```
-
-
+```python
+python run_deployment.py
+```
