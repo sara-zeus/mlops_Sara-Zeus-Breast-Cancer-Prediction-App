@@ -143,7 +143,7 @@ And finally, my deployment pipeline that creates a continuous deployment workflo
 
 
 
-## The Streamlit App
+## The Streamlit App 
 To run the Streamlit App, run the following command: 
 
 ```python
