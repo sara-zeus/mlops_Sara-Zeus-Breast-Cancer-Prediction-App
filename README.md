@@ -30,9 +30,6 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 # Why MLOps Matters
 ***
 
-<div style="text-align:center;">
-  <img src="images/mlops.jpg" alt="MLOps" width="300" height="200">
-</div>
 
 <div style="text-align:center;">
   <img src="https://media.giphy.com/media/DYMk2THiOU0akjDCQ9/giphy.gif" width="300" height="300">
