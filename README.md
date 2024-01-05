@@ -13,7 +13,7 @@
 This repository hosts the code for a specialized Breast Cancer Prediction App tailored for cytology labs. By harnessing machine learning techniques and utilizing the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), my project aims to develop a predictive tool for identifying breast tumor malignancy. 
  - :reminder_ribbon: [App Link](https://sara-zeus-breast-cancer-prediction-app.streamlit.app)
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
-- MLOps streamlines the complex machine learning lifecycle, coordinating tasks from data ingest to model deployment. It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes.
+- MLOps streamlines the complex machine learning lifecycle, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org). It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes.
 - For this project I decided to use ZenML, an Open-source MLOps framework facilitating portable, production-ready machine learning pipelines. 
 - Benefits of MLOps include:
 
