@@ -11,11 +11,12 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
 - MLOps streamlines the complex machine learning lifecycle, coordinating tasks from data ingest to model deployment. It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes.
 
-Benefits of MLOps include:
+- Benefits of MLOps include:
 
-Efficiency: Faster model development, high-quality ML models, and swift deployment.
-Scalability: Management of numerous models, facilitating continuous integration and deployment.
-Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
+Efficiency: 
+- Faster model development, high-quality ML models, and swift deployment.
+- Scalability: Management of numerous models, facilitating continuous integration and deployment.
+- Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
 ![MLOps](images/mlops.jpg)
 
 ## Functionality
