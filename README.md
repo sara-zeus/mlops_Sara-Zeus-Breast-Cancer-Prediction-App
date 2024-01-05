@@ -25,6 +25,8 @@ Efficiency:
 ![MLOps](images/mlops.jpg)
 
 # Why MLOps Matters
+***
+
 
 Building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
 
