@@ -9,7 +9,7 @@
 This repository hosts the code for a specialized Breast Cancer Prediction App tailored for cytology labs. By harnessing machine learning techniques and utilizing the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), my project aims to develop a predictive tool for identifying breast tumor malignancy. 
  - :reminder_ribbon: [App Link](https://sara-zeus-breast-cancer-prediction-app.streamlit.app)
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
-- I decided to take this project a step further and do an mlops which stands for Machine Learning Operations. MLOps is a core function of Machine Learning engineering, focused on streamlining the process of taking machine learning models to production, and then maintaining and monitoring them. MLOps is a collaborative function, often comprising data scientists, devops engineers, and IT.
+- I decided to take this project a step further and implement MLOps, which stands for Machine Learning Operations. MLOps is a core function of Machine Learning engineering, aimed at streamlining the process of deploying machine learning models to production and subsequently maintaining and monitoring them. It involves collaboration among data scientists, DevOps engineers, and IT professionals. 
 ![MLOps](images/mlops.jpg)
 
 ## Functionality
