@@ -33,23 +33,23 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 │   ├── requirements.txt          <- list of all dependencies 
 │
 ├── assets                   <- Supplementary Resources
-│   ├── style.css                  <- styling code
+│   ├── style.css                 <- styling code
 │  
 ├── data                     <- Data Folder 
-│   ├── data.csv                   <- data source 
+│   ├── data.csv                  <- data source
 │   
 ├── images                   <- Images Used in the Project 
-│   ├── body_logo.png              <- application logo   
-│   ├── heart_logo.png             <- heart logo 
+│   ├── body_logo.png             <- application logo   
+│   ├── heart_logo.png            <- heart logo 
 │ 
 ├── model                    <- Source code
-│   ├── main.py                    <- the main 
-│   ├── model.pkl                  <- serialized model file
-│   ├── scaler.pkl                 <- serialized scaler file
+│   ├── main.py                   <- the main 
+│   ├── model.pkl                 <- serialized model file
+│   ├── scaler.pkl                <- serialized scaler file
 │
 ├── pipelines                <- Pipeline Orchestrators 
-│   ├── deployment_pipeline.py     <- automated deployment orchestrator 
-│   └── training_pipelines.py      <- model training orchestrator
+│   ├── deployment_pipeline.py    <- automated deployment orchestrator 
+│   └── training_pipelines.py     <- model training orchestrator
 │   
 ├── src                      <- Source Code 
 │   ├── data_cleaning.py          <- code for data cleaning 
