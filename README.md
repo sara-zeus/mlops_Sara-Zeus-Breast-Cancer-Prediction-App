@@ -10,7 +10,7 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
  - :reminder_ribbon: [App Link](https://sara-zeus-breast-cancer-prediction-app.streamlit.app)
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
 - I decided to take this project a step further and do an mlops which stands for Machine Learning Operations. MLOps is a core function of Machine Learning engineering, focused on streamlining the process of taking machine learning models to production, and then maintaining and monitoring them. MLOps is a collaborative function, often comprising data scientists, devops engineers, and IT.
-![Your Image Caption](images/mlops.jpg)
+![MLOps](images/mlops.jpg)
 
 ## Functionality
 - **Data Input:** Users have the flexibility to input data manually or connect their devices for a streamlined analysis.
