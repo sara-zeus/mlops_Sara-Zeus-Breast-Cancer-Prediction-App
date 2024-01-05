@@ -56,9 +56,9 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 │   ├── evaluation.py           <- Code for Evaluation 
 │   └── model_dev.py            <- Code for Model Development 
 │ 
-├── steps                    <- Atomic components of ZenML pipelines 
-│   ├── clean_data.py           <- Data Cleaning Step                   
-│   ├── config.py               <- Configuration Settings  
+├── steps                    <- atomic components of ZenML pipelines 
+│   ├── clean_data.py           <- data cleaning step                   
+│   ├── config.py               <- configuration settings  
 │   ├── evaluation.py           <- Evaluation Step         
 │   ├── ingest_data.py          <- Data Ingestion Step 
 │   └── model_train.py          <- Model Training Step            
