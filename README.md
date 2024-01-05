@@ -56,6 +56,20 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 ![MLOps](images/ml.png)
 
 
+
+These are my training pipelines: 
+
+- Data Ingestion Pipeline: 📥
+- Data Preprocessing Pipeline: 🔍
+- Model Training Pipeline: 🤖
+- Model Evaluation Pipeline: 📊
+- Deployment Pipeline: 🚀
+
+And finally, my deployment pipeline that creates a continuous deployment workflow: 
+- Deployment Pipeline: 🚀
+
+
+
 ## Functionality
 - **Data Input:** Users have the flexibility to input data manually or connect their devices for a streamlined analysis.
 - **Visualization:** The app provides a radar chart illustrating critical cellular characteristics.
