@@ -28,40 +28,40 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 ```python
 
 
-├── app  
-│   ├── app.py                <- My Streamlit App 
-│   ├── requirements.txt      <- List of all Dependencies 
+├── app                      <- folder for all the streamlit app code  
+│   ├── app.py                    <- My Streamlit App 
+│   ├── requirements.txt          <- List of all Dependencies 
 │
 ├── assets                   <- Supplementary Resources
-│   ├── style.css               <- Styling Code
+│   ├── style.css                  <- Styling Code
 │  
 ├── data                     <- Data Folder 
-│   ├── data.csv                    <- Data Source 
+│   ├── data.csv                   <- Data Source 
 │   
-├── Images                  <- Images Used in the Project 
+├── images                   <- Images Used in the Project 
 │   ├── body_logo.png              <- Application Logo   
 │   ├── heart_logo.png             <- Heart Logo 
 │ 
 ├── model                    <- Source code
-│   ├── main.py                     <- The Main 
-│   ├── model.pkl                   <- Serialized Model File
-│   ├── scaler.pkl                  <- Serialized Scaler File
+│   ├── main.py                    <- The Main 
+│   ├── model.pkl                  <- Serialized Model File
+│   ├── scaler.pkl                 <- Serialized Scaler File
 │
 ├── pipelines                <- Pipeline Orchestrators 
-│   ├── deployment_pipeline.py       <- Automated Deployment Orchestrator 
-│   └── training_pipelines.py        <- Model Training Orchestrator
+│   ├── deployment_pipeline.py     <- Automated Deployment Orchestrator 
+│   └── training_pipelines.py      <- Model Training Orchestrator
 │   
-├── src                      <- Source code 
-│   ├── data_cleaning.py        <- Code for Data Cleaning 
-│   ├── evaluation.py           <- Code for Evaluation 
-│   └── model_dev.py            <- Code for Model Development 
+├── src                      <- Source Code 
+│   ├── data_cleaning.py          <- code for data cleaning 
+│   ├── evaluation.py             <- code for evaluation 
+│   └── model_dev.py              <- code for model development 
 │ 
-├── steps                    <- atomic components of ZenML pipelines 
-│   ├── clean_data.py           <- data cleaning step                   
-│   ├── config.py               <- configuration settings  
-│   ├── evaluation.py           <- Evaluation Step         
-│   ├── ingest_data.py          <- Data Ingestion Step 
-│   └── model_train.py          <- Model Training Step            
+├── steps                    <-Aatomic Aomponents Of ZenML Pipelines 
+│   ├── clean_data.py             <- data cleaning step                   
+│   ├── config.py                 <- configuration settings  
+│   ├── evaluation.py             <- evaluation step         
+│   ├── ingest_data.py            <- data ingestion step 
+│   └── model_train.py            <- model training step            
 │ 
 ├── __init__.py              <- Package Initializer
 ├── run_deployment.py        <- Deployment Script
