@@ -30,7 +30,13 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 # Why MLOps Matters
 ***
 
-<img src="https://media.giphy.com/media/DYMk2THiOU0akjDCQ9/giphy.gif" width="300" height="300">
+<div style="text-align:center;">
+  <img src="images/mlops.jpg" alt="MLOps" width="300" height="200">
+</div>
+
+<div style="text-align:center;">
+  <img src="https://media.giphy.com/media/DYMk2THiOU0akjDCQ9/giphy.gif" width="300" height="300">
+</div>
  
  
 Building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
