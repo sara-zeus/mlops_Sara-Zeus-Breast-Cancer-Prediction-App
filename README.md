@@ -24,7 +24,7 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 - Scalability: Management of numerous models, facilitating continuous integration and deployment.
 - Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
 <p align="center">
-  <img src="images/mlops.jpg" alt="MLOps" width="500" height="500">
+  <img src="images/mlops.jpg" alt="MLOps" width="700" height="500">
 </p>
 
 # Why MLOps Matters
