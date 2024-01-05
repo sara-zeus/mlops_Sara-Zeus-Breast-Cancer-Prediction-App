@@ -23,7 +23,9 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 - Efficiency: Faster model development, high-quality ML models, and swift deployment.
 - Scalability: Management of numerous models, facilitating continuous integration and deployment.
 - Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
-![MLOps](images/mlops.jpg)
+<p align="center">
+  <img src="images/mlops.jpg" alt="MLOps" width="300" height="200">
+</p>
 
 # Why MLOps Matters
 ***
