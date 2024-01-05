@@ -19,6 +19,9 @@ Efficiency:
 - Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
 ![MLOps](images/mlops.jpg)
 
+![MLOps](images/mlops.jpg)
+
+
 ## Functionality
 - **Data Input:** Users have the flexibility to input data manually or connect their devices for a streamlined analysis.
 - **Visualization:** The app provides a radar chart illustrating critical cellular characteristics.
