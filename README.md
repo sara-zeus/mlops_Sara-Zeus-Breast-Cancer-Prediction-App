@@ -73,6 +73,13 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 ```
 ## 🚀 Lets look at the code 
 
-## Streamlit App
-To run the Streamlit 
+## The Streamlit App
+To run the Streamlit App, run the following command: 
+
+```python
+streamlit run app/app.py
+
+```
+
+
 
