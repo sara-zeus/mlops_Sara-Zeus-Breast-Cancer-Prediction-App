@@ -25,8 +25,6 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 
 ---
 
-```python
-
 ├── app  
 │   ├── app.py                <- My Streamlit App 
 │   ├── requirements.txt      <- List of all Dependencies 
@@ -37,44 +35,36 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 ├── data                     <- Data Folder 
 │   ├── data.csv                    <- Data Source 
 │   
-│
 ├── Images                  <- Images Used in the Project 
-│    ├── body_logo.png              <- Application Logo   
-│    ├── heart_logo.png             <- heart logo 
+│   ├── body_logo.png              <- Application Logo   
+│   ├── heart_logo.png             <- Heart Logo 
 │ 
 ├── model                    <- Source code
 │   ├── main.py                     <- The Main 
 │   ├── model.pkl                   <- Serialized Model File
 │   ├── scaler.pkl                  <- Serialized Scaler File
 │
-├── pipelines                    <- pipeline Orchestrators 
+├── pipelines                <- Pipeline Orchestrators 
 │   ├── deployment_pipeline.py       <- Automated Deployment Orchestrator 
-│   ├── training_pipelines.py        <- Model Training Orchestrator
+│   └── training_pipelines.py        <- Model Training Orchestrator
 │   
-│
-│
-├── src                    <- Source code 
+├── src                      <- Source code 
 │   ├── data_cleaning.py        <- Code for Data Cleaning 
 │   ├── evaluation.py           <- Code for Evaluation 
-│   ├── model_dev.py            <- Code for Model Development 
+│   └── model_dev.py            <- Code for Model Development 
 │ 
-│
+├── steps                    <- Atomic components of ZenML pipelines 
+│   ├── clean_data.py           <- Data Cleaning Step                   
+│   ├── config.py               <- Configuration Settings  
+│   ├── evaluation.py           <- Evaluation Step         
+│   ├── ingest_data.py          <- Data Ingestion Step 
+│   └── model_train.py          <- Model Training Step            
 │ 
-│
-├── steps                  <- Atomic components of ZenML pipelines 
-│   ├── clean_data.py           <- Data cleaning step                   
-│   ├── config.py               <- Configuration settings  
-│   ├── evaluation.py           <- Evaluation step         
-│   ├── ingest_data.py          <- Data Ingestion step 
-│   ├── model_train.py          <- Model training step            
-│ 
-│
-│
-│                  
-├── __init__.py             <- Package initializer
-├── run_deployment.py       <- Deployment script
-├── run_pipeline.py         <- Pipeline executor            
-└── README.md               <- Project documentation
+├── __init__.py              <- Package Initializer
+├── run_deployment.py        <- Deployment Script
+├── run_pipeline.py          <- Pipeline Executor            
+└── README.md                <- Project Documentation
+
 
 
 ```
