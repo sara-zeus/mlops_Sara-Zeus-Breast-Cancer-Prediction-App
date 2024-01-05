@@ -32,38 +32,58 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 
 ---
 
-## Usage
+- app
+  ├── app.py
+  └── requirements.txt
 
-Execute the application using Streamlit:
+- assets
+  └── style.css
 
-```bash
-streamlit run app/app.py
-```
+- data
+  └── data.csv
 
+- images
+  ├── body_logo.png
+  └── heart_logo.png
 
-- Project Root
-  - app/
-    - (files inside app folder)
-  - assets/
-    - (files inside assets folder)
-  - data/
-    - (files inside data folder)
-  - images/
-    - (files inside images folder)
-  - mlops_examples/
-    - (files inside mlops_examples folder)
-  - model/
-    - (files inside model folder)
-  - pipelines/
-    - (files inside pipelines folder)
-  - src/
-    - (files inside src folder)
-  - steps/
-    - (files inside steps folder)
-  - README.md
-  - __init__.py
-  - run_deployment.py
-  - run_pipeline.py
+- mlops_examples
+  ├── Data_Ingestion_Pipeline.py
+  ├── Data_Preprocessing_Pipeline.py
+  ├── Model_Evaluation_Pipeline.py
+  ├── Model_Training_Pipeline.py
+  ├── tempCodeRunnerFile.py
+  └── trained_model.pkl
+
+- model
+  ├── main.py
+  ├── model.pkl
+  └── scaler.pkl
+
+- pipelines
+  ├── __pycache__
+  ├── deployment_pipeline.py
+  └── training_pipelines.py
+
+- src
+  ├── __pycache__
+  │   ├── data_cleaning.cpython-38.pyc
+  │   ├── evaluation.cpython-38.pyc
+  │   └── model_dev.cpython-38.pyc
+  ├── data_cleaning.py
+  ├── evaluation.py
+  ├── model_dev.py
+
+- steps
+  ├── __pycache__
+  ├── clean_data.py
+  ├── config.py
+  ├── evaluation.py
+  ├── ingest_data.py
+  ├── model_train.py
+  ├── README.md
+  ├── __init__.py
+  ├── run_deployment.py
+  └── run_pipeline.py
 
 
 
