@@ -39,43 +39,42 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 │   
 │
 ├── Images                  <- Images Used in the Project 
-│ 
 │    ├── body_logo.png              <- Application Logo   
 │    ├── heart_logo.png             <- heart logo 
 │ 
 ├── model                    <- Source code
-│   ├── main.py                     <- Data scripts
-│   ├── model.pkl                   <- Model scripts
-│   ├── scaler.pkl                    <- Utility scripts
+│   ├── main.py                     <- The Main 
+│   ├── model.pkl                   <- Serialized Model File
+│   ├── scaler.pkl                  <- Serialized Scaler File
 │
-├── pipelines                    <- Source code
-│   ├── deployment_pipeline.py                     <- Data scripts
-│   ├── training_pipelines.py                   <- Model scripts
+├── pipelines                    <- pipeline Orchestrators 
+│   ├── deployment_pipeline.py       <- Automated Deployment Orchestrator 
+│   ├── training_pipelines.py        <- Model Training Orchestrator
 │   
 │
 │
-├── src                    <- Source code
-│   ├── data_cleaning.py                     <- Data scripts
-│   ├── evaluation.py                  <- Model scripts
-│   ├── model_dev.py                    <- Utility scripts
+├── src                    <- Source code 
+│   ├── data_cleaning.py        <- Code for Data Cleaning 
+│   ├── evaluation.py           <- Code for Evaluation 
+│   ├── model_dev.py            <- Code for Model Development 
 │ 
 │
 │ 
 │
-├── steps                    <- Source code
-│   ├── clean_data.py                     <- Data scripts
-│   ├── config.py                 <- Model scripts
-│   ├── evaluation.py                   <- Utility scripts
-│    ├── ingest_data.py                 <- Model scripts
-│   ├── model_train.py                   <- Utility scripts
+├── steps                  <- Atomic components of ZenML pipelines 
+│   ├── clean_data.py           <- Data cleaning step                   
+│   ├── config.py               <- Configuration settings  
+│   ├── evaluation.py           <- Evaluation step         
+│   ├── ingest_data.py          <- Data Ingestion step 
+│   ├── model_train.py          <- Model training step            
 │ 
 │
 │
-│                  <- Makefile with commands like `make train` or `make test`
-├── __init__.py            <- Configuration options for testing and linting
-├── run_deployment.py        <- File for installing python dependencies
-├── run_pipeline.py                  <- File for installing project as a package
-└── README.md
+│                  
+├── __init__.py             <- Package initializer
+├── run_deployment.py       <- Deployment script
+├── run_pipeline.py         <- Pipeline executor            
+└── README.md               <- Project documentation
 
 
 ```
