@@ -29,27 +29,27 @@ The underlying machine learning model is trained on the [Wisconsin Breast Cancer
 
 
 ├── app                      <- Folder For All The Streamlit App Code  
-│   ├── app.py                    <- My Streamlit App 
-│   ├── requirements.txt          <- List of all Dependencies 
+│   ├── app.py                    <- my streamlit app 
+│   ├── requirements.txt          <- list of all dependencies 
 │
 ├── assets                   <- Supplementary Resources
-│   ├── style.css                  <- Styling Code
+│   ├── style.css                  <- styling code
 │  
 ├── data                     <- Data Folder 
-│   ├── data.csv                   <- Data Source 
+│   ├── data.csv                   <- data source 
 │   
 ├── images                   <- Images Used in the Project 
-│   ├── body_logo.png              <- Application Logo   
-│   ├── heart_logo.png             <- Heart Logo 
+│   ├── body_logo.png              <- application logo   
+│   ├── heart_logo.png             <- heart logo 
 │ 
 ├── model                    <- Source code
-│   ├── main.py                    <- The Main 
-│   ├── model.pkl                  <- Serialized Model File
-│   ├── scaler.pkl                 <- Serialized Scaler File
+│   ├── main.py                    <- the main 
+│   ├── model.pkl                  <- serialized model file
+│   ├── scaler.pkl                 <- serialized scaler file
 │
 ├── pipelines                <- Pipeline Orchestrators 
-│   ├── deployment_pipeline.py     <- Automated Deployment Orchestrator 
-│   └── training_pipelines.py      <- Model Training Orchestrator
+│   ├── deployment_pipeline.py     <- automated deployment orchestrator 
+│   └── training_pipelines.py      <- model training orchestrator
 │   
 ├── src                      <- Source Code 
 │   ├── data_cleaning.py          <- code for data cleaning 
