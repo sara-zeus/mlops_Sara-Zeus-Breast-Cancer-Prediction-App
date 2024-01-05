@@ -13,11 +13,15 @@
 This repository hosts the code for a specialized Breast Cancer Prediction App tailored for cytology labs. By harnessing machine learning techniques and utilizing the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), my project aims to develop a predictive tool for identifying breast tumor malignancy. 
  - :reminder_ribbon: [App Link](https://sara-zeus-breast-cancer-prediction-app.streamlit.app)
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
-- MLOps streamlines the complex machine learning lifecycle using [ZenML](https://www.zenml.io) with the use pipelines, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org). It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes.
-- For this project I decided to use ZenML, an Open-source MLOps framework facilitating portable, production-ready machine learning pipelines. 
-- Benefits of MLOps include:
 
-Efficiency: 
+## Why MLOps? 
+- For the Capstone Project, I decided to take it a step further and explore MLOps because building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
+- MLOps streamlines the complex machine learning lifecycle using [ZenML](https://www.zenml.io) with the use pipelines, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org). It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes.
+- For this project I decided to use [ZenML](https://www.zenml.io), an Open-source MLOps framework facilitating portable, production-ready machine learning pipelines.
+- coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org). It fosters collaboration across teams—Data Engineering, Data Science, and ML Engineering—requiring stringent operational standards to synchronize processes. 
+
+## Benefits of MLOps include:
+- Efficiency: 
 - Faster model development, high-quality ML models, and swift deployment.
 - Scalability: Management of numerous models, facilitating continuous integration and deployment.
 - Risk Reduction: Enables regulatory compliance, drift-check, and faster response to requests, ensuring transparency and policy adherence. 
