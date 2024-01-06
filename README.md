@@ -10,13 +10,13 @@
 
 
 ## Objective
-This repository hosts the code for a specialized Breast Cancer Prediction App using MLOps tailored for cytology labs. By harnessing machine learning techniques and utilizing the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), my project aims to develop a predictive tool for identifying breast tumor malignancy. 
+This repository hosts the code for a specialized Breast Cancer Prediction App and MLOps workflows and Deployment Mechanisms tailored for cytology labs. By harnessing machine learning techniques and utilizing the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), my project aims to develop a predictive tool for identifying breast tumor malignancy. 
  - :reminder_ribbon: [App Link](https://sara-zeus-breast-cancer-prediction-app.streamlit.app)
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
 - Derived from digitized images of FNA samples from breast masses, the app's analysis centers on Cellular Morphological Features. It serves as a valuable tool for laboratory technicians, aiding in the prediction of breast cancer based on tissue samples.
 
 ## Why MLOps? 
-- For the Capstone Project, I decided to take it a step further and explore MLOps because building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
+- For the Capstone Project after creating the App, I decided to take it a step further and explore MLOps because building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
 - MLOps streamlines the complex machine learning lifecycle, so for this project I decided to use using [ZenML](https://www.zenml.io) with the use pipelines, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org).
 - This practice promotes collaboration among various teams, including Data Engineering, Data Science, and ML Engineering, necessitating strict operational standards to synchronize processes.
 
@@ -86,8 +86,8 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 │   ├── body_logo.png             <- application logo   
 │   ├── heart_logo.png            <- heart logo 
 │ 
-├── model                    <- Source code
-│   ├── main.py                   <- the main 
+├── model                    <- EDA and ML model 
+│   ├── main.py                   <- Source code
 │   ├── model.pkl                 <- serialized model file
 │   ├── scaler.pkl                <- serialized scaler file
 │
