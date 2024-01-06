@@ -134,10 +134,8 @@ Steps inside the training pipeline:
 
 ## Challenges I Encountered in MLOps:
 
-- One of the primary challenges I faced revolves around the scarcity of comprehensive resources dedicated to instructing proficient MLOps practices. Given the nascent nature of this field, not all industry professionals possess the requisite skills and knowledge in this domain.
-
-- Additionally, I encountered difficulties in resolving certain bugs within the deployment pipeline, an ongoing area of focus in my current work.
-
+-One big challenge I had was not finding enough good resources to learn MLOps properly. It's a new field, so not everyone knows all about it. 
+- I also have trouble fixing some bugs in my deployment pipelines. It's something I'm still working on.
 
 
 ## The Streamlit App 
