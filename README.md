@@ -1,4 +1,5 @@
-# Sara-Zeus Breast Cancer Prediction App :stethoscope: :cherry_blossom: <br> Empowering Precision, Embracing Hope
+Sara-Zeus Breast Cancer Prediction App <font color="red">Empowering Precision, Embracing Hope</font>
+
 
 
 ***
