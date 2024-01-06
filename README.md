@@ -37,19 +37,19 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 </div>
  
  
-**MLOps: Solving Problems and Best Practices**
+## MLOps: Solving Problems and Best Practices**
 
 MLOps addresses issues like versioning, monitoring model performance, and efficient feature generation. It ensures consistency, prevents degradation, and streamlines feature creation, allowing data scientists to focus on refining models.
 
-**Skills for MLOps**
+## Skills for MLOps
 
 For successful MLOps, teams need skills in problem articulation, data collection, preparation, model creation, pipeline development, deployment, and real-world monitoring.
 
-**Key Components of MLOps** 
+## Key Components of MLOps
 
 MLOps comprises various components, including a feature store for efficient feature storage, data versioning for reproducibility, ML metadata for comprehensive logging, and model serving and monitoring for performance checks.
 
-**Model Management and CI/CD in MLOps** 
+## Model Management and CI/CD in MLOps
 
 Model versioning, registry, serving, monitoring, retraining, and continuous integration/deployment are essential aspects ensuring models perform optimally and adapt to changing data.
 
@@ -57,7 +57,7 @@ Model versioning, registry, serving, monitoring, retraining, and continuous inte
 
 Creating an MLOps system or using pipeline orchestration tools like MLflow, Sacred, and ModelDB streamlines workflows and automates processes.
 
-**Best Practices in MLOps** 
+## Best Practices in MLOps** 
 
 Collaborative tools, starting simple, quick launches, automated testing, and model deployment are key practices ensuring success in MLOps.
 
