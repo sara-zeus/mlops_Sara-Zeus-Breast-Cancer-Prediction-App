@@ -15,7 +15,7 @@ This repository hosts the code for a specialized Breast Cancer Prediction App us
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
 - Derived from digitized images of FNA samples from breast masses, the app's analysis centers on Cellular Morphological Features. It serves as a valuable tool for laboratory technicians, aiding in the prediction of breast cancer based on tissue samples.
 
-## Why MLOps? 
+## 🔄 Why MLOps? 
 - For the Capstone Project, I decided to take it a step further and explore MLOps because building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
 - MLOps streamlines the complex machine learning lifecycle, so for this project I decided to use using [ZenML](https://www.zenml.io) with the use pipelines, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org).
 - This practice promotes collaboration among various teams, including Data Engineering, Data Science, and ML Engineering, necessitating strict operational standards to synchronize processes.
