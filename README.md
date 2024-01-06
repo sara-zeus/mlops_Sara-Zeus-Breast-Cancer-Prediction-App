@@ -13,6 +13,7 @@
 This repository hosts the code for a specialized Breast Cancer Prediction App tailored for cytology labs. By harnessing machine learning techniques and utilizing the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), my project aims to develop a predictive tool for identifying breast tumor malignancy. 
  - :reminder_ribbon: [App Link](https://sara-zeus-breast-cancer-prediction-app.streamlit.app)
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
+- Derived from digitized images of FNA samples from breast masses, the app's analysis centers on Cellular Morphological Features. It serves as a valuable tool for laboratory technicians, aiding in the prediction of breast cancer based on tissue samples.
 
 ## Why MLOps? 
 - For the Capstone Project, I decided to take it a step further and explore MLOps because building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
@@ -59,21 +60,8 @@ Creating an MLOps system or using pipeline orchestration tools like MLflow, Sacr
 ## Best Practices in MLOps
 
 Collaborative tools, starting simple, quick launches, automated testing, and model deployment are key practices ensuring success in MLOps.
- 
-![MLOps](images/ml.png)
 
-
-
-## Functionality
-- **Data Input:** Users have the flexibility to input data manually or connect their devices for a streamlined analysis.
-- **Visualization:** The app provides a radar chart illustrating critical cellular characteristics.
-- **Prediction:** It offers predictions regarding tumor classification as benign or malignant.
-
-## Features
-Derived from digitized images of FNA samples from breast masses, the app's analysis centers on Cellular Morphological Features. It serves as a valuable tool for laboratory technicians, aiding in the prediction of breast cancer based on tissue samples.
-
-## Dataset
-The underlying machine learning model is trained on the [Wisconsin Breast Cancer Dataset from Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data), enhancing accuracy and reliability.
+Creating a machine learning model is only 20% of the work! The rest is explained in the image below:"![MLOps](images/ml.png)
 
 
 ## Project Structure
