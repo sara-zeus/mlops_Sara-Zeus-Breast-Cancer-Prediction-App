@@ -129,8 +129,6 @@ These are my training pipelines:
 
 - Model Evaluation Pipeline 📊: Assesses trained models' performance and effectiveness. I
 
-- Deployment Pipelinee 🚀: Handles deploying trained and evaluated models into production or operational environments.
-
 
 And finally, my deployment pipeline that creates a continuous deployment workflow: 
 - Deployment Pipeline: 🚀
