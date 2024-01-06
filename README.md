@@ -15,7 +15,7 @@ This repository hosts the code for a specialized Breast Cancer Prediction App us
 - Specifically designed for lab technicians, the app interprets cellular morphological features extracted from fine needle aspirate (FNA) samples.
 - Derived from digitized images of FNA samples from breast masses, the app's analysis centers on Cellular Morphological Features. It serves as a valuable tool for laboratory technicians, aiding in the prediction of breast cancer based on tissue samples.
 
-## 🔄 Why MLOps? 
+## Why MLOps? 
 - For the Capstone Project, I decided to take it a step further and explore MLOps because building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle.
 - MLOps streamlines the complex machine learning lifecycle, so for this project I decided to use using [ZenML](https://www.zenml.io) with the use pipelines, coordinating tasks from data ingest to model deployment using [MLflow](https://mlflow.org).
 - This practice promotes collaboration among various teams, including Data Engineering, Data Science, and ML Engineering, necessitating strict operational standards to synchronize processes.
@@ -121,15 +121,15 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 
 These are my training pipelines: 
 
-- Data Ingestion Pipeline 📥: Responsible for gathering and importing raw data from various sources into the system or data processing workflow. Involves data collection, extraction, and initial processing tasks.
+- Data Ingestion Pipeline 📥: Responsible for gathering and importing raw data from various sources into the system or data processing workflow. 
 
-- Data Preprocessing Pipeline 🔍: Focuses on cleaning, transforming, and preparing raw data for analysis or model training. Includes data cleaning, normalization, feature engineering, and handling missing values.
+- Data Preprocessing Pipeline 🔍: Focuses on cleaning, transforming, and preparing raw data for analysis or model training. 
 
-- Model Training Pipeline 🤖: Dedicated to training machine learning or statistical models using prepared data. Involves selecting algorithms, training models, tuning hyperparameters, and validating performance.
+- Model Training Pipeline 🤖: Dedicated to training machine learning or statistical models using prepared data. I
 
-- Model Evaluation Pipeline 📊: Assesses trained models' performance and effectiveness. Involves evaluating against specific metrics, conducting cross-validation, and generating reports or visualizations.
+- Model Evaluation Pipeline 📊: Assesses trained models' performance and effectiveness. I
 
-- Deployment Pipelinee 🚀: Handles deploying trained and evaluated models into production or operational environments. Includes model packaging, integration, testing, and making models accessible for usage.
+- Deployment Pipelinee 🚀: Handles deploying trained and evaluated models into production or operational environments.
 
 
 And finally, my deployment pipeline that creates a continuous deployment workflow: 
