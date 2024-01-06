@@ -121,16 +121,16 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 
 **These are my training pipelines:** 
 
-The training pipeline consists of several steps:
+Steps inside the training pipeline:
 
-- ingest_data: This step will ingest the data and create a DataFrame.
-- clean_data: This step will clean the data and remove the unwanted columns.
-- train_model: This step will train the model and save the model using MLflow autologging.
-- evaluation: This step will evaluate the model and save the metrics. 
+📥 ingest_data: This step will ingest the data and create a DataFrame.
+🔍 clean_data: This step will clean the data and remove the unwanted columns.
+🤖 train_model: This step will train the model and save the model using MLflow autologging.
+📊 evaluation: This step will evaluate the model and save the metrics. 
 
 
 **And finally, my deployment pipeline that creates a continuous deployment workflow:** 
-- Deployment Pipeline: 🚀
+🚀 Deployment Pipeline 
 
 ## Challenges I Encountered in MLOps:
 
