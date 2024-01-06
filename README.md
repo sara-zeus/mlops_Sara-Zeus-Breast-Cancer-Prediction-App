@@ -119,15 +119,14 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 ## 🪜 Lets look at the code
 ***
 
-These are my training pipelines: 
+**These are my training pipelines:** 
 
-- Data Ingestion Pipeline 📥: Responsible for gathering and importing raw data from various sources into the system or data processing workflow. 
+The training pipeline consists of several steps:
 
-- Data Preprocessing Pipeline 🔍: Focuses on cleaning, transforming, and preparing raw data for analysis or model training. 
-
-- Model Training Pipeline 🤖: Dedicated to training machine learning or statistical models using prepared data. I
-
-- Model Evaluation Pipeline 📊: Assesses trained models' performance and effectiveness. I
+ingest_data: This step will ingest the data and create a DataFrame.
+clean_data: This step will clean the data and remove the unwanted columns.
+train_model: This step will train the model and save the model using MLflow autologging.
+evaluation: This step will evaluate the model and save the metrics. 
 
 
 And finally, my deployment pipeline that creates a continuous deployment workflow: 
