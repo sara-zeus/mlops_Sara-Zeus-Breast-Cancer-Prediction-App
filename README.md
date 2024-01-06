@@ -134,7 +134,7 @@ Steps inside the training pipeline:
 
 ## Challenges I Encountered in MLOps:
 
--One big challenge I had was not finding enough good resources to learn MLOps properly. It's a new field, so not everyone knows all about it. 
+- One big challenge I had was not finding enough good resources to learn MLOps properly. It's a new field, so not everyone knows all about it. 
 - I also have trouble fixing some bugs in my deployment pipelines. It's something I'm still working on.
 
 
