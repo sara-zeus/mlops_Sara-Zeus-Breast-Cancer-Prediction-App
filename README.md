@@ -32,10 +32,18 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 
 **Building a machine learning model isn't the end game. MLOps—Machine Learning Operations—is vital for reproducibility and success in a production environment. MLOps ensures scalability, collaboration, and reproducibility throughout the machine learning lifecycle. The GIF below explains it well!**
 
-<div style="text-align:center;">
-  <img src="https://media.giphy.com/media/DYMk2THiOU0akjDCQ9/giphy.gif" width="300" height="300">
-</div>
- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centering Image</title>
+</head>
+<body>
+  <div style="text-align: center;">
+    <img src="https://media.giphy.com/media/DYMk2THiOU0akjDCQ9/giphy.gif" width="300" height="300">
+  </div>
+</body>
+</html>
+
  
 ## MLOps: Solving Problems and Best Practices
 
