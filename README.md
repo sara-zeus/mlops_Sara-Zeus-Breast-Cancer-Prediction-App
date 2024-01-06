@@ -124,9 +124,6 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 Steps inside the training pipeline:
 
 
-_ingest_data_
-
-
 - 📥 ingest_data: This step will ingest the data and create a DataFrame.
 - 🔍 clean_data: This step will clean the data and remove the unwanted columns.
 - 🤖 train_model: This step will train the model and save the model using MLflow autologging.
