@@ -66,6 +66,7 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 
 **Creating a machine learning model is only 20% of the work! The rest is explained in the image below:** ![MLOps](images/ml.png)
 
+***
 
 ## Project Structure
 
@@ -113,7 +114,7 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 ├── run_pipeline.py          <- Pipeline Executor            
 └── README.md                <- Project Documentation
 
-
+***
 
 ```
 ## 🚀 Lets look at the code 
