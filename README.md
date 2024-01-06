@@ -132,7 +132,11 @@ These are my training pipelines:
 And finally, my deployment pipeline that creates a continuous deployment workflow: 
 - Deployment Pipeline: 🚀
 
+## Challenges I Encountered in MLOps:
 
+- One of the primary challenges I faced revolves around the scarcity of comprehensive resources dedicated to instructing proficient MLOps practices. Given the nascent nature of this field, not all industry professionals possess the requisite skills and knowledge in this domain.
+
+- Additionally, I encountered difficulties in resolving certain bugs within the deployment pipeline, an ongoing area of focus in my current work.
 
 
 
