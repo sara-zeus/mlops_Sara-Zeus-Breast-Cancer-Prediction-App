@@ -80,7 +80,7 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 ├── data                     <- Data Folder 
 │   ├── data.csv                  <- data source
 │   
-├── images                   <- Images Used In the Project 
+├── images                   <- Images Used in the Project 
 │   ├── body_logo.png             <- application logo   
 │   ├── heart_logo.png            <- heart logo 
 │ 
