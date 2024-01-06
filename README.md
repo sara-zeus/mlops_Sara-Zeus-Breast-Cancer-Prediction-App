@@ -61,7 +61,7 @@ Creating an MLOps system or using pipeline orchestration tools like MLflow, Sacr
 
 Collaborative tools, starting simple, quick launches, automated testing, and model deployment are key practices ensuring success in MLOps.
 
-Creating a machine learning model is only 20% of the work! The rest is explained in the image below: ![MLOps](images/ml.png)
+**Creating a machine learning model is only 20% of the work! The rest is explained in the image below:** ![MLOps](images/ml.png)
 
 
 ## Project Structure
