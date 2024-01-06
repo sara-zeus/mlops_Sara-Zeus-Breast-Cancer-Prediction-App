@@ -119,7 +119,7 @@ Collaborative tools, starting simple, quick launches, automated testing, and mod
 ## 🪜 Lets look at the code
 ***
 
-**These are my training pipelines:** 
+**My training pipeline:** 
 
 Steps inside the training pipeline:
 
