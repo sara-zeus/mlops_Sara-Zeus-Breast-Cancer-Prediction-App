@@ -37,7 +37,7 @@ This repository hosts the code for a specialized Breast Cancer Prediction App ta
 </div>
  
  
-## MLOps: Solving Problems and Best Practices**
+## MLOps: Solving Problems and Best Practices
 
 MLOps addresses issues like versioning, monitoring model performance, and efficient feature generation. It ensures consistency, prevents degradation, and streamlines feature creation, allowing data scientists to focus on refining models.
 
@@ -57,7 +57,7 @@ Model versioning, registry, serving, monitoring, retraining, and continuous inte
 
 Creating an MLOps system or using pipeline orchestration tools like MLflow, Sacred, and ModelDB streamlines workflows and automates processes.
 
-## Best Practices in MLOps** 
+## Best Practices in MLOps
 
 Collaborative tools, starting simple, quick launches, automated testing, and model deployment are key practices ensuring success in MLOps.
 
