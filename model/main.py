@@ -34,7 +34,23 @@ def create_model(data):
     )
     print("Classification report: \n", classification_report(y_test, y_pred))
 
-    return model, scaler
+    # Training the XGBoost model
+    xgb_model = xgb.XGBClassifier()
+    xgb_model.fit(X_train, y_train)
+
+    # Predicting using the XGBoost model
+    y_pred_xgb = xgb_model.predict(X_test)
+    print(
+        "Accuracy score of the XGBoost model is: ",
+        accuracy_score(y_test, y_pred_xgb),
+    )
+    print(
+        "Classification report for XGBoost model: \n",
+        classification_report(y_test, y_pred_xgb),
+    )
+
+
+    return model, scaler, xgb_model
 
 
 def get_clean_data():
@@ -51,12 +67,15 @@ def main():
     """Runs main script"""
     data = get_clean_data()
 
-    model, scaler = create_model(data)
+    model, scaler, xgb_model = create_model(data)
 
     with open("model/model.pkl", "wb") as f:
         pkl.dump(model, f)
     with open("model/scaler.pkl", "wb") as f:
         pkl.dump(scaler, f)
+    with open("model/xgb_model.pkl", "wb") as f:
+        pkl.dump(xgb_model, f)
+
 
 
 if __name__ == "__main__":
