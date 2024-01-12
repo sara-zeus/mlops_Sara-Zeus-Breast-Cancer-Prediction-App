@@ -5,6 +5,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 import pickle as pkl
+import xgboost as xgb
 
 
 def create_model(data):
